@@ -51,8 +51,7 @@
 		2DDBBC372AEBF31E0007B3EE /* Movie Booking */ = {
 			isa = PBXGroup;
 			children = (
-				2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */,
-				2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */,
+				2DDBBC462AEBF3E70007B3EE /* Views */,
 				2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */,
 				2DDBBC3E2AEBF3200007B3EE /* Preview Content */,
 			);
@@ -65,6 +64,15 @@
 				2DDBBC3F2AEBF3200007B3EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DDBBC462AEBF3E70007B3EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */,
+				2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
