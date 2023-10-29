@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DCC571A2AED3D4300E1D634 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC57192AED3D4300E1D634 /* TicketView.swift */; };
 		2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */; };
 		2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */; };
 		2DDBBC3D2AEBF3200007B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DCC57192AED3D4300E1D634 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		2DDBBC352AEBF31E0007B3EE /* Movie Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_BookingApp.swift; sourceTree = "<group>"; };
 		2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */,
 				2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */,
+				2DCC57192AED3D4300E1D634 /* TicketView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCC571A2AED3D4300E1D634 /* TicketView.swift in Sources */,
 				2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */,
 				2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */,
 			);
