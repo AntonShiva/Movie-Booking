@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D3D58342AEE50710003C8E2 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D58332AEE50710003C8E2 /* CircleBackground.swift */; };
+		2D3D58372AEE5F070003C8E2 /* TecketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D58362AEE5F070003C8E2 /* TecketData.swift */; };
 		2DCC571A2AED3D4300E1D634 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC57192AED3D4300E1D634 /* TicketView.swift */; };
 		2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */; };
 		2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2D3D58332AEE50710003C8E2 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		2D3D58362AEE5F070003C8E2 /* TecketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecketData.swift; sourceTree = "<group>"; };
 		2DCC57192AED3D4300E1D634 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		2DDBBC352AEBF31E0007B3EE /* Movie Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_BookingApp.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		2D3D58352AEE5EC20003C8E2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D58362AEE5F070003C8E2 /* TecketData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		2DDBBC2C2AEBF31E0007B3EE = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		2DDBBC372AEBF31E0007B3EE /* Movie Booking */ = {
 			isa = PBXGroup;
 			children = (
+				2D3D58352AEE5EC20003C8E2 /* Data */,
 				2D3D58322AEE503F0003C8E2 /* UI */,
 				2DDBBC462AEBF3E70007B3EE /* Views */,
 				2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */,
@@ -162,6 +173,7 @@
 				2DCC571A2AED3D4300E1D634 /* TicketView.swift in Sources */,
 				2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */,
 				2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */,
+				2D3D58372AEE5F070003C8E2 /* TecketData.swift in Sources */,
 				2D3D58342AEE50710003C8E2 /* CircleBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
