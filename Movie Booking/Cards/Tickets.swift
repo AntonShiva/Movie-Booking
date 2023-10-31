@@ -68,13 +68,19 @@ struct InfiniteStackView: View {
             .onEnded({ value in
                 let width = UIScreen.main.bounds.width
                 let swipedRight = offset > (width / 2)
+                let swipedLeft = -offset > (width / 2)
                 
                 withAnimation(.easeInOut(duration: 0.5)) {
-                    if swipedRight {
-                        offset = width
-                        removeAndAdd()
+                    if swipedLeft {
+                        offset = -width
+                        removeTicket()
                     } else {
-                        offset = .zero
+                        if swipedRight {
+                            offset = width
+                            removeAndAdd()
+                        } else {
+                            offset = .zero
+                        }
                     }
                 }
             })
@@ -106,6 +112,12 @@ struct InfiniteStackView: View {
             withAnimation(.spring()) {
                 tickets.removeFirst()
             }
+        }
+    }
+    
+    func removeTicket() {
+        withAnimation(.spring()) {
+            tickets.removeFirst()
         }
     }
 }
