@@ -16,6 +16,7 @@
 		2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */; };
 		2DDBBC3D2AEBF3200007B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */; };
 		2DDBBC402AEBF3200007B3EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBC3F2AEBF3200007B3EE /* Preview Assets.xcassets */; };
+		2DEBAB632AF1193F00786348 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBAB622AF1193F00786348 /* PosterData.swift */; };
 		2DFEF0EE2AEF809700EE67FD /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF0ED2AEF809700EE67FD /* utils.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDBBC3F2AEBF3200007B3EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DEBAB622AF1193F00786348 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		2DFEF0ED2AEF809700EE67FD /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				2D3D58362AEE5F070003C8E2 /* TecketData.swift */,
+				2DEBAB622AF1193F00786348 /* PosterData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -92,6 +95,8 @@
 				2D3D58352AEE5EC20003C8E2 /* Data */,
 				2D3D58322AEE503F0003C8E2 /* UI */,
 				2DDBBC462AEBF3E70007B3EE /* Views */,
+				2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */,
+				2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */,
 				2DDBBC3C2AEBF3200007B3EE /* Assets.xcassets */,
 				2DDBBC3E2AEBF3200007B3EE /* Preview Content */,
 				2DFEF0ED2AEF809700EE67FD /* utils.swift */,
@@ -110,8 +115,6 @@
 		2DDBBC462AEBF3E70007B3EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2DDBBC3A2AEBF31E0007B3EE /* ContentView.swift */,
-				2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */,
 				2DCC57192AED3D4300E1D634 /* TicketView.swift */,
 			);
 			path = Views;
@@ -192,6 +195,7 @@
 				2D3D583A2AEE60610003C8E2 /* Ticket.swift in Sources */,
 				2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */,
 				2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */,
+				2DEBAB632AF1193F00786348 /* PosterData.swift in Sources */,
 				2D3D58372AEE5F070003C8E2 /* TecketData.swift in Sources */,
 				2D3D58342AEE50710003C8E2 /* CircleBackground.swift in Sources */,
 				2DCC1EE02AF01EBB007E688C /* Tickets.swift in Sources */,
