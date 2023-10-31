@@ -12,6 +12,7 @@
 		2D3D583A2AEE60610003C8E2 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D58392AEE60610003C8E2 /* Ticket.swift */; };
 		2D7D7FC12AF1388F00E9F40A /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC02AF1388F00E9F40A /* TabData.swift */; };
 		2D7D7FC32AF13C5400E9F40A /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC22AF13C5400E9F40A /* StatusUI.swift */; };
+		2D7D7FC52AF13D4800E9F40A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC42AF13D4800E9F40A /* CustomTabBar.swift */; };
 		2DCC1EE02AF01EBB007E688C /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC1EDF2AF01EBB007E688C /* Tickets.swift */; };
 		2DCC571A2AED3D4300E1D634 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC57192AED3D4300E1D634 /* TicketView.swift */; };
 		2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBC382AEBF31E0007B3EE /* Movie_BookingApp.swift */; };
@@ -28,6 +29,7 @@
 		2D3D58392AEE60610003C8E2 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		2D7D7FC02AF1388F00E9F40A /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		2D7D7FC22AF13C5400E9F40A /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		2D7D7FC42AF13D4800E9F40A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2DCC1EDF2AF01EBB007E688C /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		2DCC57192AED3D4300E1D634 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		2DDBBC352AEBF31E0007B3EE /* Movie Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			children = (
 				2D3D58332AEE50710003C8E2 /* CircleBackground.swift */,
 				2D7D7FC22AF13C5400E9F40A /* StatusUI.swift */,
+				2D7D7FC42AF13D4800E9F40A /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				2D7D7FC12AF1388F00E9F40A /* TabData.swift in Sources */,
 				2DFEF0EE2AEF809700EE67FD /* utils.swift in Sources */,
 				2D3D583A2AEE60610003C8E2 /* Ticket.swift in Sources */,
+				2D7D7FC52AF13D4800E9F40A /* CustomTabBar.swift in Sources */,
 				2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */,
 				2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */,
 				2DEBAB632AF1193F00786348 /* PosterData.swift in Sources */,
