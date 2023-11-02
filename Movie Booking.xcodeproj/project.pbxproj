@@ -11,6 +11,7 @@
 		2D3D58372AEE5F070003C8E2 /* TecketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D58362AEE5F070003C8E2 /* TecketData.swift */; };
 		2D3D583A2AEE60610003C8E2 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D58392AEE60610003C8E2 /* Ticket.swift */; };
 		2D7764602AF3678B0006E6EE /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D77645F2AF3678B0006E6EE /* TimeButton.swift */; };
+		2D7764622AF369680006E6EE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7764612AF369680006E6EE /* CircleButton.swift */; };
 		2D7D7FC12AF1388F00E9F40A /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC02AF1388F00E9F40A /* TabData.swift */; };
 		2D7D7FC32AF13C5400E9F40A /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC22AF13C5400E9F40A /* StatusUI.swift */; };
 		2D7D7FC52AF13D4800E9F40A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D7FC42AF13D4800E9F40A /* CustomTabBar.swift */; };
@@ -34,6 +35,7 @@
 		2D3D58362AEE5F070003C8E2 /* TecketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecketData.swift; sourceTree = "<group>"; };
 		2D3D58392AEE60610003C8E2 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		2D77645F2AF3678B0006E6EE /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		2D7764612AF369680006E6EE /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		2D7D7FC02AF1388F00E9F40A /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		2D7D7FC22AF13C5400E9F40A /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 		2D7D7FC42AF13D4800E9F40A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				2DEA39F82AF2C14800FDCB87 /* DateButton.swift */,
 				2D77645F2AF3678B0006E6EE /* TimeButton.swift */,
+				2D7764612AF369680006E6EE /* CircleButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				2DDBBC3B2AEBF31E0007B3EE /* ContentView.swift in Sources */,
 				2DDBBC392AEBF31E0007B3EE /* Movie_BookingApp.swift in Sources */,
 				2DEBAB632AF1193F00786348 /* PosterData.swift in Sources */,
+				2D7764622AF369680006E6EE /* CircleButton.swift in Sources */,
 				2D3D58372AEE5F070003C8E2 /* TecketData.swift in Sources */,
 				2D3D58342AEE50710003C8E2 /* CircleBackground.swift in Sources */,
 				2D7D7FC32AF13C5400E9F40A /* StatusUI.swift in Sources */,
