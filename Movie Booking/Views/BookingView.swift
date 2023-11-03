@@ -104,7 +104,7 @@ struct BookingView: View {
                     }
                     
                     NavigationLink {
-                        Text("Seats view")
+                        SeatsView()
                     } label: {
                           LargeButton()
                             .padding(20)
